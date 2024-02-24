@@ -12,6 +12,15 @@ public class SearchTest extends TestBase{
         app.getSearch().submitForm();
         Assert.assertTrue(app.getSearch().isElementPresent(By.className("search-results")));
     }
+    @Test
+    public void searchNegativeTest(){
+
+        app.getSearch().fillSearchForm("Tel Aviv","02/25/2023","02/29/2024");
+        //month/day/2024
+        app.getSearch().submitForm();
+        Assert.assertFalse(app.getSearch().isElementPresent(By.className("search-results")));
+    }
+
 
 }
 

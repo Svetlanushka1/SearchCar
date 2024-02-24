@@ -26,7 +26,7 @@ public class HelperSearch extends HelperBase{
         String[] startDate = dateFrom.split("/");
         String[] endDate = dateTo.split("/");
         startToEndMonth = Integer.parseInt(endDate[0]) - Integer.parseInt(startDate[0]);
-        pause(4000);
+        pause(3000);
         click(By.id("dates"));
         if(LocalDate.now().getMonthValue()!=Integer.parseInt(startDate[0])){
             nowToStartMonth = Integer.parseInt(startDate[0]) - LocalDate.now().getMonthValue();
@@ -82,7 +82,7 @@ public class HelperSearch extends HelperBase{
     private void selectPeriod(String dateFrom, String dateTo) {
         String[] startDate = dateFrom.split("/");
         String[] endDate = dateTo.split("/");
-        pause(4000);
+        pause(3000);
         click(By.id("dates"));
 //        String locatorStart = "//div[.=' 6 ']";
 //        String locatorStart = "//div[.=' "+startDate[1]+" ']";
