@@ -1,0 +1,7 @@
+<suite name="tests" verbose="1">
+    <test name="regress">
+        <classes>
+            <class name="SearchTest"/>
+        </classes>
+    </test>
+</suite>
