@@ -28,6 +28,10 @@ public class HelperBase {
     public void click(By locator){
         driver.findElement(locator).click();
     }
+    public void clearField(By locator) {
+        WebElement element = driver.findElement(locator);
+        element.clear();
+    }
 
     public void pause(int time){
 //        wd.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);

@@ -27,7 +27,12 @@ public class HelperSearch extends HelperBase{
         pause(3000);
     }
 
-            public void submitForm() {
+
+    public void clearFieldCity(By locator) {
+        clearField(locator);
+    }
+
+    public void submitForm() {
             click(By.xpath("//button[@type='submit']"));
         }
 

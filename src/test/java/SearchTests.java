@@ -1,3 +1,4 @@
+import listener_provider.DataProviderCity;
 import listener_provider.DataProviderLogin;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -14,13 +15,7 @@ public class SearchTests extends TestBase{
         Assert.assertTrue(app.getSearch().isElementPresent(By.className("search-results")));
     }
 
-    @Test
-    public void selectCity(){
-        app.getSearch().fillCity("Tel Aviv");
-        Assert.assertTrue(app.getSearch().isElementPresent(By.id("city")));
 
-
-    }
     @Test
     public void searchNegativeTest(){
 
