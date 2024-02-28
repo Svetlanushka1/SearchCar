@@ -26,9 +26,6 @@ public class ApplicationManager {
     HelperSearch search;
     Properties properties;
 
-//    public manager.ApplicationManager() {
-//        properties = new Properties();
-//    }
 
     public ApplicationManager(String browser) {
         properties = new Properties();

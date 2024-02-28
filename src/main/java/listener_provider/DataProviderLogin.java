@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ProviderData {
+public class DataProviderLogin {
 
     @DataProvider
     public Iterator<Object[]> loginModelDto(){
@@ -28,10 +28,10 @@ public class ProviderData {
         return list.iterator();
     }
 
-    @DataProvider
-    public Iterator<Object[]> registrationCSV() throws IOException {
+   @DataProvider
+    public Iterator<Object[]> loginCSV() throws IOException {
         List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/data.csv")));
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/datalogin.csv")));
         String line = reader.readLine();
         while(line != null){
             String[] split = line.split(",");

@@ -12,7 +12,9 @@ import java.lang.reflect.Method;
 
 public class TestBase {
 
-    static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+  static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+    //by default FireFox
+    //static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.FIREFOX));
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
 

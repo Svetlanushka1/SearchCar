@@ -1,7 +1,7 @@
 <suite name="tests" verbose="1">
-    <test name="regress">
+    <test name="first">
         <classes>
-            <class name="SearchTest"/>
+            <class name="SearchTests"/>
         </classes>
     </test>
 </suite>

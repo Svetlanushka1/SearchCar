@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14cfd51e-1c30-41c7-ba87-1d0b27264ab1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/datalogin.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/search_test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listener_provider/ProviderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listener_provider/DataProviderLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/QA_Auto_Projects/BaseMethods_DOM_POM_API/BaseMethodsMobile&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model" />
@@ -51,11 +62,14 @@
       <recent name="listener_provider" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\QA_Auto_Projects\SearchCar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\QA_Auto_Projects\SearchCar\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchTest.searchNegativeTest">
+  <component name="RunManager" selected="Gradle.SearchTests.selectCity">
     <configuration name="SearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -102,7 +116,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchTest.searchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTests.searchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -115,7 +129,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SearchTest.searchTest&quot;" />
+            <option value="&quot;SearchTests.searchTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchTests.searchTestFireFox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SearchTests.searchTestFireFox&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchTests.selectCity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":searchTests" />
+            <option value="--tests" />
+            <option value="&quot;SearchTests.selectCity&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,9 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchTests.selectCity" />
+        <item itemvalue="Gradle.SearchTests.searchTest" />
+        <item itemvalue="Gradle.SearchTests.searchTestFireFox" />
         <item itemvalue="Gradle.SearchTest.searchNegativeTest" />
         <item itemvalue="Gradle.SearchTest" />
-        <item itemvalue="Gradle.SearchTest.searchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,11 +211,19 @@
       <option name="project" value="LOCAL" />
       <updated>1708784958295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bug: No alert appears when entering incorrect date. MyListener - no such element">
+      <created>1708785756857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708785756857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="serch a car by month/day/year" />
-    <option name="LAST_COMMIT_MESSAGE" value="serch a car by month/day/year" />
+    <MESSAGE value="Bug: No alert appears when entering incorrect date. MyListener - no such element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug: No alert appears when entering incorrect date. MyListener - no such element" />
   </component>
 </project>
